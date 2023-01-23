@@ -24,8 +24,8 @@ test('renders the Home component using the <Route path="/">', () => {
   expect(screen.queryByText(/Home Page/g)).toBeInTheDocument();
 });
 
-test('renders the Actors component using the <Route path="/actors">', () => {
-  window.history.pushState({}, "", "/actors");
+test('renders the Actors component using the <Route path="/Actors">', () => {
+  window.history.pushState({}, "", "/Actors");
   render(
     <BrowserRouter>
       <App />
